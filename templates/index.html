@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina mi dibujo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+</head>
+<body>
+    <!-- Pantalla de inicio (1) -->
+  <div id="inicio" class="pantalla">
+    <h1>Bienvenido a Adivina mi Dibujo</h1>
+    <button onclick="mostrarPantalla('canvasPantalla')">Comenzar</button>
+  </div>
+
+  <!-- Pantalla 2: Canvas -->
+  <div id="canvasPantalla" class="pantalla" style="display:none;">
+    <h2>Dibuja aquí</h2>
+    <canvas id="drawCanvas" width="280" height="280"></canvas>
+    <button id="clearBtn">Limpiar</button>
+    <button id="predictBtn">Predecir</button>
+  </div>
+
+  <!-- Pantalla 3: Predicciones -->
+  <div id="predicciones" class="pantalla" style="display:none;">
+    <h2>Predicciones</h2>
+    <div id="resultado"></div>
+    <button onclick="mostrarPantalla('estadisticas')">Ver estadísticas</button>
+  </div>
+
+  <!-- Pantalla 4: Estadísticas -->
+  <div id="estadisticas" class="pantalla" style="display:none;">
+    <h2>Estadísticas</h2>
+    <p id="stats">Intentos: 0 | Aciertos: 0 | Errores: 0</p>
+    <!--<button onclick="mostrarPantalla('final')">Resultados finales</button> -->
+    <button id="finalBtn">Resultados finales</button>
+  </div>
+
+  <!-- Pantalla 5: Resultados finales -->
+  <div id="final" class="pantalla" style="display:none;">
+    <h2>Resumen</h2>
+    <p>Gracias por participar. Aquí están tus resultados.</p>
+    <div id="resumenDatos"></div>
+    
+    <button onclick="mostrarPantalla('inicio')">Volver al inicio</button>
+  </div>
+</body>

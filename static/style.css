@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 20;
+  padding: 20;
+}
+
+canvas {
+  border: 2px solid #333;
+  background-color: black;
+  cursor: crosshair;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding-top: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.pantalla {
+  margin-top: 30px;
+}
+
+#inicio {
+  display: block;
+}
