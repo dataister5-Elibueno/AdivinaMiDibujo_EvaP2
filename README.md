@@ -54,8 +54,7 @@ Abre el navegador en: http://127.0.0.1:5000
 •	Dense final (Softmax, 5 clases) Entrenado con optimizador Adam, pérdida categorical_crossentropy, y 20 épocas.
 # Métricas
 •	Accuracy de validación: 82%
-•	Matriz de confusión: muestra confusión entre “gato” y “perro”, lo que evidencia áreas de mejora.
-•	Meta cumplida: supera el 75% mínimo exigido.
+•  Matriz de confusión arroja errores frecuentes en dibujos incompletos o con trazos similares y muestra confusión entre gato_carro y casa_arbol, lo que evidencia áreas de mejora
 
 # Link Video : https://ister-my.sharepoint.com/:v:/g/personal/bety_bueno_ister_edu_ec/IQDIOkNijmPdT4keQpQTrfDBAYXZbeT_-i-3s1o2sMjFdI8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Aelxok
 
