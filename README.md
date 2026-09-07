@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Proyecto Final — Adivina mi Dibujo
 
 Este proyecto implementa un sistema de Inteligencia Artificial basado en Redes Convolucionales (CNN) que predice en tiempo real qué objeto está siendo dibujado por el usuario en un lienzo interactivo, se aplica los conceptos recibidos en clase sobre regresión lineal, redes neuronales profundas, CNN y Transfer Learning.
@@ -60,7 +59,6 @@ Abre el navegador en: http://127.0.0.1:5000
 
 Autor: Elisabeth Bueno
 Ister Proyecto individual
-=======
 # AdivinaMiDibujo_EvaP2
 Evaluacion del P2 asignatura Introduccion a la Inteligencia Artificial
->>>>>>> 6088d25ad622f1da2340672375a3c88acabd98ff
+6088d25ad622f1da2340672375a3c88acabd98ff
